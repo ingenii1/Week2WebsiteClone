@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    padding: 5px;
+}
+.navBar{
+    display:flex;
+    background-color: grey;
+    color: white;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+
+.message{
+    display:flex;
+    background-color: red;
+    color: white;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+
+.end{
+    flex-direction: column;
+    background-color: white;
+    color: black;
+}
+
+.links
+{
+    max-width: 100%;
+    max-height: 200px;
+    flex-direction: column;
+    background-color: green;
+    color: black;
+}
